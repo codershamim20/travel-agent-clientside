@@ -13,7 +13,7 @@ const Header = () => {
           <Link className="navbar-brand container " to="/home"><img className="img-fluid" width="120" height="80" src="https://www.obokash.com/images/logo.png" alt="" /></Link>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
-    <Nav className="me-auto">
+    <Nav >
     <Link className="nav-link active hover" to="/">Home</Link>
     <Link className="nav-link hover" to="/about">About</Link>
     <Link className="nav-link" to="/services">Services</Link>

@@ -16,7 +16,9 @@ const Footer = () => {
           <div className="col-5 mx-auto my-auto">BEST TRAVEL AGENT
           
           </div>
-                <div className="col-4 my-auto mx-auto"><i class="fab fa-facebook"></i> <br/><i className="fab fa-instagram-square"></i>
+          <div className="col-4 my-auto mx-auto">
+            <i class="fab fa-facebook"></i> <br />
+            <i className="fab fa-instagram-square"></i><br/>
                 <Link className="navbar-brand container " to="/home"><img className="img-fluid" width="120" height="80" src="https://www.obokash.com/images/logo.png" alt="" /></Link>
                 </div>
                 <small className="mx-auto">&copy; Copyright 2021, BEST TRAVEL</small>

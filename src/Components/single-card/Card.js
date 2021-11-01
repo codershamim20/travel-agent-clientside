@@ -3,17 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Card = (props) => {
   const { _id, services, img, country, rating, duration } = props.card || {}
-  const handleDelete = id => {
-    const url = `https://serene-escarpment-20453.herokuapp.com/services/${id}`
-    fetch(url, {
-      method:"DELETE"
-    })
-      .then(res => res.json())
-      .then(data => {
-        console.log(data);
-        
-    })
-  }
+  
     return (
         <div className="col-md-4 col-sm-6">
             <div className="card mb-3 h-100 bg-info" >
@@ -27,7 +17,6 @@ const Card = (props) => {
         <p className="card-text">Customer Rating: {rating} star </p>
         <Link to={`/servicedetail/${_id}`}>
                   <button className="btn btn-success">Book Now</button>
-                  <button onClick={()=>handleDelete(_id)} className="btn btn-danger mx-5">Delete</button>
           </Link>
                 
       </div>
