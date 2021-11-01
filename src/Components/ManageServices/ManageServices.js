@@ -9,14 +9,19 @@ const ManageServices = () => {
      .then(data=>setCards(data))   
     }, [])
     const handleDelete = id => {
-        const url = `https://serene-escarpment-20453.herokuapp.com/services/${id}`
+        const url = `https://aqueous-everglades-52543.herokuapp.com/servicesdata/${id}`
         fetch(url, {
           method:"DELETE"
         })
           .then(res => res.json())
           .then(data => {
-            console.log(data);
-            // const remaining=props.filter
+              console.log(data);
+              if (data.deletedCount) {
+                  alert("Deleted successfully")
+                const remaining = cards.filter(service => service._id !== id);
+                setCards(remaining);  
+              }
+              
         })
       }
     return (

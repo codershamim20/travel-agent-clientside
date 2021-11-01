@@ -10,7 +10,7 @@ const AddService = () => {
         console.log(data);
         axios.post('https://aqueous-everglades-52543.herokuapp.com/servicesdata', data)
             .then(res => {
-                console.log(res);
+                // console.log(res);
                 if (res.data.insertedId) {
                     alert("Successfully Added");
                     reset();
