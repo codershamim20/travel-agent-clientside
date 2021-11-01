@@ -31,7 +31,7 @@ function App() {
   },[])
 
   return (
-    <div >
+    <div className="text-center ">
       {
         loading ?
         <ClimbingBoxLoader color={`#36D7B7`} loading={loading} size={30} />

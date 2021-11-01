@@ -11,7 +11,7 @@ const Card = (props) => {
       .then(res => res.json())
       .then(data => {
         console.log(data);
-        const remaining=props.filter
+        
     })
   }
     return (
