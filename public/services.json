@@ -1,0 +1,57 @@
+[
+    {
+      "id":1,
+      "services":"Umrah package-07 days",
+      "duration":"07 days",
+      "rating":"5 Star",
+      
+      "country":"KSA",
+      "img":"https://www.obokash.com/imgs/packages/umrah-package-07-days.jpg"
+    },
+    {
+      "id":2,
+      "services":"Umrah package-10 days",
+      "duration":"10 days",
+      "rating":"5 Star",
+      
+      "country":"KSA",
+      "img":"https://www.obokash.com/imgs/packages/umrah-package-10-days.jpg"
+    },
+    {
+      "id":3,
+      "services":"Umrah-Dubai package-15 days",
+      "duration":"15 days",
+      "rating":"5 Star",
+      
+      "country":"KSA & DUBAI",
+      "img":"https://www.obokash.com/imgs/packages/umrah-dubai-package-15-days.jpg"
+    },
+    {
+      "id":4,
+      "services":"Umrah-Egypt package-15 days",
+      "duration":"15 days",
+      "rating":"5 Star",
+      
+      "country":"KSA & EGYPT",
+      "img":"https://www.obokash.com/imgs/packages/umrah-egypt-package-15-days.jpg"
+    },
+    {      
+      "id":5,
+      "services":"Umrah-Turkey package-15 days",
+      "duration":"15 days",
+      "rating":"5 Star",
+      
+      "country":"KSA & Turkey",
+      "img":"https://www.obokash.com/imgs/packages/umrah-turkey-package-15-days.jpg"
+    },
+    {
+      "id":6,
+      "services":"Ramadan Umrah-package-07 days",
+      "duration":"7 days",
+      "rating":"5 Star",
+      
+      "country":"KSA",
+      "img":"https://www.obokash.com/imgs/packages/ramadan-umrah-package-07-days.jpg"
+    }
+    
+  ]
