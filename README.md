@@ -1,9 +1,8 @@
-This is website about Skin care.We have Every type of skin related problem solution.
-Live site link of my site: https://meni-derma-clinic9.netlify.app
+This is website about travel agent.We have Every type of travel related problem solution.
+Live site link of my site: 
 #We use react
 #This site using google log in
-#Also using email log in system
-#This website use fake data
+#This website use database
 #I also try to use private route
 #This site use react route
 # tourism-or-delivery-website-client-side-codershamim20

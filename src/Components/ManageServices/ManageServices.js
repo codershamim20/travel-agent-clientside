@@ -4,7 +4,7 @@ import Card from '../single-card/Card';
 const ManageServices = () => {
     const [cards, setCards] = useState([]);
     useEffect(() => {
-        fetch('https://serene-escarpment-20453.herokuapp.com/services')
+        fetch('https://aqueous-everglades-52543.herokuapp.com/servicesdata')
             .then(res => res.json())
      .then(data=>setCards(data))   
     }, [])

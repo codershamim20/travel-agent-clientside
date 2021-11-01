@@ -10,7 +10,7 @@ const ServiceDetail = () => {
   // console.log(user)
     const [cards , setCards] = useState([]);
     useEffect(() => {
-        fetch(`https://serene-escarpment-20453.herokuapp.com/services/${id}`)
+        fetch(`https://aqueous-everglades-52543.herokuapp.com/servicesdata/${id}`)
             .then(res => res.json())
         .then(data=>setCards(data))
     },[])

@@ -8,7 +8,7 @@ const AddService = () => {
 
     const onSubmit = data => {
         console.log(data);
-        axios.post('https://serene-escarpment-20453.herokuapp.com/services', data)
+        axios.post('https://aqueous-everglades-52543.herokuapp.com/servicesdata', data)
             .then(res => {
                 console.log(res);
                 if (res.data.insertedId) {

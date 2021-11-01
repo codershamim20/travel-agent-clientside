@@ -7,7 +7,7 @@ const Services = () => {
     
     
     useEffect(() => {
-        fetch('http://localhost:5000/servicesdata')
+        fetch('https://aqueous-everglades-52543.herokuapp.com/servicesdata')
             .then(res => res.json())
         .then(data=>setCards(data))
     },[])
